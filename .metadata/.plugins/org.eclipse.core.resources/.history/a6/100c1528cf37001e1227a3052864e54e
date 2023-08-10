@@ -56,7 +56,7 @@ public class ProdutoController {
 		new IllegalArgumentException("Identificador do produto é inválido!" + id));
 		
 		model.addAttribute("produto", produto);
-		return "editar_produto";
+		return "redirect:/editar_produto";
 	}
 	
 	@PostMapping("/atualizar/{id}")
