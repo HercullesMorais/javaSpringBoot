@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;adicionar_produto.html&apos; to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;projetoComThymeleaf&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original element: &apos;adicionar_produto.html&apos;" description="Copy file" element1="src/main/resources/templates/adicionar_produto.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1691626192147" target="/projetoComThymeleaf/src/main/resources/templates" units="0" version="1.0"/>
+</session>
