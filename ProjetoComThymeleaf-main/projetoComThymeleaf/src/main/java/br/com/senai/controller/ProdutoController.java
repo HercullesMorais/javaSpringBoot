@@ -68,4 +68,14 @@ public class ProdutoController {
 		produtoRepository.save(produto);
 		return "redirect:/produto";
 	}
+	
+	@GetMapping("/delete/{id}")
+	public String deletarProduto(@PathVariable("id") long id, Model model) {
+		Produto produto = produtoRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("Identificador do produto é inválido!" + id));
+		produtoRepository.delete(produto);
+		
+		return "redirect:/produto";
+
+		
+	}
 }
